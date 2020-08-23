@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navegacion {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.navegacion a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+  
+.navegacion a:hover {
+    background-color: #ddd;
+    transition: all 0.5s ease-out;
+    color: black;
+}
+  
+.navegacion a.active {
+    background-color: #7a78f0;
+    color: white;
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7a78f0;
+    font-size: 4em;
+    text-shadow: 3px 3px 1px #ddd;
+}
+
+.contenedor{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img{
+    margin: 0 auto;
+}
+
+.inicio{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 10px;
+    color: #7a78f0;
+    text-shadow: 3px 3px 1px #ddd;
+}
+
+.nosotros{
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px rgb(124, 123, 123);
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.img1{
+    margin-right: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.img2{
+    border-radius: 10px;
+}
+
+.servicios{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contacto{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#333333;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+.textoFooter{
+    padding-top: 50px;
+}
+
+@media (max-width: 970px) {
+    .titulo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 375px) {
+    .titulo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
