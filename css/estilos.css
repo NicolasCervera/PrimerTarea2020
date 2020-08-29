@@ -1,35 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     font-family: 'Fira Sans', sans-serif;
 }
 
-.navegacion {
-    background-color: #333;
-    overflow: hidden;
-}
-  
-.navegacion a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+.navbar{
     text-decoration: none;
-    font-size: 1.2em;
-}
-  
-.navegacion a:hover {
-    background-color: #ddd;
-    transition: all 0.5s ease-out;
-    color: black;
-}
-  
-.navegacion a.active {
-    background-color: #7a78f0;
-    color: white;
+    position: fixed;
 }
 
 .titulo{
@@ -45,10 +20,6 @@ body{
 .contenedor{
     width: 80%;
     text-align: center;
-    margin: 0 auto;
-}
-
-img{
     margin: 0 auto;
 }
 
@@ -89,6 +60,14 @@ h2{
 .contacto{
     margin-top: 30px;
     margin-bottom: 40px;
+}
+
+.titContacto{
+    margin-bottom: 20px;
+}
+
+form{
+    margin: 0px 100px 0px 300px;
 }
 
 .footer {
