@@ -1,0 +1,51 @@
+.container{
+    margin-bottom: 30px;
+}
+
+.boton{
+    margin-top: 8px;
+}
+
+.titulo{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    top: 40%;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.imagenFondoTitulo{
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .titulo{
+        position: absolute;
+        left: 30%;
+        right: 30%;
+        top: 25%;
+        color: white;
+        font-size: 2em;
+        text-shadow: 2px 2px 2px gray;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo{
+        position: absolute;
+        left: 30%;
+        right: 30%;
+        top: 20%;
+        color: white;
+        font-size: 2em;
+        text-shadow: 2px 2px 2px gray;
+    }
+}

@@ -30,13 +30,13 @@ body{
 
 h2{
     margin-bottom: 10px;
-    color: #7a78f0;
+    color: #1b7ce4;
     text-shadow: 3px 3px 1px #ddd;
 }
 
 .nosotros{
     margin-top: 30px;
-    box-shadow: 10px 5px 5px rgb(124, 123, 123);
+    box-shadow: 10px 10px 5px rgb(124, 123, 123);
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 12px;
@@ -67,7 +67,7 @@ h2{
 }
 
 form{
-    margin: 0px 100px 0px 300px;
+    /* margin: 0px 100px 0px 300px; */
 }
 
 .footer {
