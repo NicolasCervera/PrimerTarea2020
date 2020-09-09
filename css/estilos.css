@@ -7,6 +7,25 @@ body{
     position: fixed;
 }
 
+.navbar-brand{
+    margin-top: 15px;
+}
+
+.navbar a{
+    border: 1px white solid;    
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar a:hover{
+    color: white;
+    background: #1b7ce4;
+    transition: all 1s ease;
+}
+
+
 .titulo{
     position: absolute;
     top: 50%;
@@ -59,15 +78,18 @@ h2{
 
 .contacto{
     margin-top: 30px;
-    margin-bottom: 40px;
+}
+
+iframe{
+    margin-bottom: 50px;
 }
 
 .titContacto{
     margin-bottom: 20px;
 }
 
-form{
-    /* margin: 0px 100px 0px 300px; */
+#InputName{
+    margin-bottom: 13px;
 }
 
 .footer {
