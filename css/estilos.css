@@ -12,7 +12,7 @@ body{
 }
 
 .navbar a{
-    border: 1px white solid;    
+       
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
@@ -21,6 +21,7 @@ body{
 
 .navbar a:hover{
     color: white;
+    border: 1px #69a0da solid;
     background: #1b7ce4;
     transition: all 1s ease;
 }
@@ -92,7 +93,7 @@ iframe{
     margin-bottom: 13px;
 }
 
-.footer {
+/* .footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -100,7 +101,15 @@ iframe{
     color: white;
     text-align: center;
     height: 150px;
-}
+} */
+
+.footer {
+    width: 100%;
+    background-color:#333333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+} 
 
 .textoFooter{
     padding-top: 50px;
