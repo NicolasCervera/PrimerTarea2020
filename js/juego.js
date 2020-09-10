@@ -6,7 +6,7 @@ let respuesta=document.getElementById('respuesta');
 function Validacion()
 {
 
-     document.getElementById('intentos').value= contador;
+     
 
      if(respuesta == '70% proteina 30% lipidos' && contador < 4)
      {
